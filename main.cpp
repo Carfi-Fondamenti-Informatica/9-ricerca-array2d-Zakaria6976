@@ -1,6 +1,6 @@
 #include <iostream>
 #include "lib.h"
-using namaspace std;
+using namespace std;
 
 int main(){
   int pos;
