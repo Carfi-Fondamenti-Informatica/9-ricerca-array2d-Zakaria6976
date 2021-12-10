@@ -1,17 +1,20 @@
 #include <iostream>
 #include "lib.h"
-
 using namaspace std;
 
-
 int main(){
-  int dim;
-  cin>> dim;
-  float numeri[dim];
-  for(int i=0;i<dim;i++){
-    cin>> numeri[i];
+  int pos;
+  char a[10][20], f[1][20];
+  for (int =0,i<10;i++){
+    cin >>a[i];
   }
-  numeroMassimo(numeri,dim);
-  cout << numeroMassimo(numeri , dim) <<endl;
+  cin>>f[0];
+  
+  if(ricerca(a,f,pos)){
+    cout<<pos<<endl;
+  }else{
+    cout<<"non presente"<<endl;
+  }
+  
   return 0;
 }
