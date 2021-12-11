@@ -1,6 +1,9 @@
-#ifndef UNTITLED17_LIB_H
-#define UNTITLED17_LIB_H
+//
+// Created by Utente on 11/12/2021.
+//
 
-bool ricerca(char lista[10] [20],char nome[1][20],int &pos);
+#ifndef UNTITLED3_LIB_H
+#define UNTITLED3_LIB_H
 
-endif //UNTITLED!/_LIB_H
+#endif //UNTITLED3_LIB_H
+bool res (char[][20],char[],int&);
