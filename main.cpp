@@ -1,20 +1,20 @@
-#include <iostream>
+#include "iostream"
 #include "lib.h"
 using namespace std;
 
+
 int main(){
-  int pos;
-  char a[10][20], f[1][20];
-  for (int =0,i<10;i++){
-    cin >>a[i];
-  }
-  cin>>f[0];
-  
-  if(ricerca(a,f,pos)){
-    cout<<pos<<endl;
-  }else{
-    cout<<"non presente"<<endl;
-  }
-  
-  return 0;
+    char list[10][20];
+    char name[20];
+    int a =0;
+    for(int i=0;i<10;i++){
+        cin>>list[i];
+    }
+    cin>>name;
+    if(res(list,name,a)){
+        cout<<a;
+    }else{
+        cout<<"non presente";
+    }
+    return 0;
 }
