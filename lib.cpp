@@ -1,13 +1,14 @@
-#include "lib.h"
-#include <cstring>
+//
+// Created by Utente on 11/12/2021.
+//
 
-bool ricerca(char lista [10] [20],char nome[1][20],int &pos){
-  
-  for(int =0;i<10;i++){
-    if(strcmp(lista[i],nome [0])==0){
-      pos = i;
-      return true;
+#include "lib.h"
+#include <string.h>
+bool res(char list[10][20],char name[20],int &i){
+    for(i=0;i<10;i++){
+        if((strcmp(list[i],name))==0){
+            return true;
+        }
     }
-  }
-  return false;
+    return false;
 }
